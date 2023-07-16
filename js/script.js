@@ -274,13 +274,12 @@ const atualizarCarrinho = () => {
 }
 
 const finalizarCompra = () => {
-    seleciona('.cart--finalizar a').addEventListener('click', () => {
+    seleciona('.cart--finalizar').addEventListener('click', () => {
         console.log('Finalizar compra')
         seleciona('aside').classList.remove('show')
         seleciona('aside').style.left = '100vw'
         seleciona('header').style.display = 'flex'
     })
-    atualizarCarrinho()
 }
 
 
