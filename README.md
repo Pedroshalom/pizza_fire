@@ -19,7 +19,6 @@
 
 ### Nele existem questões referentes a posicionamento de elementos, display grid, flex, hover entre outros.
 
-### Cada sessão do site consta no menu superior e ao clicar em cada parte o úsuario é navegado para a sessão.
 
 <p> 
     <img width="1000" height="600" src="src/gif8.gif" >
