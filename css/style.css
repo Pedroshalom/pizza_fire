@@ -481,6 +481,11 @@ h1, h2 {
         font-size:20px;
     }
 
+    .whatts {
+        color: white;
+        text-decoration: none;
+    }
+
     .pizzaInfo--addButton {
         font-size:20px;
         display:block;
