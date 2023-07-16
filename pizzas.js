@@ -95,16 +95,16 @@ let pizzaJson = [
         ],
         description: 'Creme de leite, lascas de chocolate e morangos'
       },
-    //   {
-    //     id: 9,
-    //     name: 'Chocolate com pimenta',
-    //     img: 'images/pizza8.png',
-    //     price: 35.00,
-    //     sizes: [
-    //       '320g',
-    //       '530g',
-    //       '860g'
-    //     ],
-    //     description: 'Creme de leite, lascas de chocolate e pimenta'
-    //   }
+      {
+        id: 9,
+        name: 'Confets',
+        img: 'images/pizza13.png',
+        price:[20.00, 23.00, 25.00],
+        sizes: [
+          '6 fatias',
+            '8 fatias',
+            '12 fatias'
+        ],
+        description: 'Creme de nutella, lascas de chocolate e confets'
+      }
 ];
