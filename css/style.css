@@ -482,7 +482,7 @@ footer {
     }
 
     .tel {
-        color: whitesmoke;
+        color: #ffc506;
     }
 
     .contact {
@@ -500,7 +500,7 @@ footer {
 }
 
     h4 {
-        color: rgb(177, 177, 177);
+        color: #ffc506;
         font-size: 1rem;
         font-weight: 100;
         margin-left: 50px;
@@ -527,7 +527,7 @@ footer {
     }
 
     .menu-openner {
-        margin-right: 90px;
+        margin-right: 15px;
         width: 70px;
     }
     header {
