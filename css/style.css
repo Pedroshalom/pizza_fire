@@ -481,6 +481,13 @@ footer {
         font-family: 'Indie Flower', cursive;
     }
 
+    .contatos-secao {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+
     .tel {
         color: #ffc506;
     }
@@ -523,7 +530,7 @@ footer {
 
 
     .zap {
-        margin-left: 60px;
+        margin-left: 5px;
     }
 
     .menu-openner {
@@ -539,7 +546,7 @@ footer {
     }
 
     .face {
-        margin-left: 60px;
+        margin-left: 5px;
     }
 
     footer {
