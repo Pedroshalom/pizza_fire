@@ -506,6 +506,7 @@ footer {
 
     .tel {
         color: #ffc506;
+        text-decoration: none;
     }
 
     .contact {
