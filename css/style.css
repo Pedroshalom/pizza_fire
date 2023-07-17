@@ -476,17 +476,23 @@ footer {
     main h2 {
         margin-bottom: 60px;
         margin-top: 150px;
-        margin-left: 50px;
+        margin-left: 10px;
         text-decoration: underline;
         font-family: 'Indie Flower', cursive;
     }
 
+    .tel {
+        color: whitesmoke;
+    }
+
     .contact {
         text-align: center;
+        color: whitesmoke;
     }
 
     .rodape {
         margin-right: 50px;
+        color: whitesmoke;
     }
 
     .middle {
