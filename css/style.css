@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -11,6 +15,10 @@ body {
     display:flex;
     margin:0;
     min-height:100vh;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url(/images/cardapio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .models {
@@ -80,12 +88,107 @@ main {
     flex:1;
     padding:20px;
     margin-top:60px;
+    color:#faf7f7;
 }
 
-h1, h2 {
-    font-family:'Hepta Slab', Helvetica, Arial;
+
+main h2 {
+    margin-bottom: 60px;
+    margin-top: 150px;
+    text-decoration: underline;
+    font-family: 'Indie Flower', cursive;
+}
+
+.title {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffc506;
+}
+
+.contatos {
+    width: 100%;
+    /* background-color: #1f1e1f; */
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+   font-size: 3rem;
+   margin-bottom: 3rem;
+   font-family: 'Indie Flower', cursive;
+}
+
+.contatos-secao {
+    width: 650px;
+    display: block;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .contatos-secao i{
+    margin-right: 1rem;
+
+} */
+
+.contatos-secao div{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.middle {
+        vertical-align: middle;
+}
+
+
+.inst {
+    margin-left: 33px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.face {
+    margin-left: 30px;
+}
+
+.contatos-secao div:hover{
+    color: #ffc506;
+}
+
+footer {
+    /* height: 25px; */
+    /* background-color: #000000; */
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h4 {
+    color: rgb(177, 177, 177);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
     text-align: center;
 }
+
 
 .pizza-area {
     display:grid;
@@ -139,20 +242,20 @@ h1, h2 {
 
 .pizza-item--price {
     font-size:15px;
-    color:#333;
+    color:#faf7f7;
     margin-top:5px;
 }
 
 .pizza-item--name {
     font-size:20px;
     font-weight: bold;
-    color:#000;
+    color:#faf7f7;
     margin-top:5px;
 }
 
 .pizza-item--desc {
     font-size:13px;
-    color:#555;
+    color:#faf7f7;
     margin-top:10px;
 }
 
@@ -419,6 +522,11 @@ h1, h2 {
     header {
         display:flex;
     }
+
+    footer {
+        font-size: 1rem;
+    }
+
     /*
     main {
         padding-top:60px;
